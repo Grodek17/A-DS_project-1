@@ -1639,7 +1639,7 @@ int main()
 
             case '-':
             {
-                negate(Stack.top_ptr->value.startOfList, &Stack);
+                ::negate(Stack.top_ptr->value.startOfList, &Stack);
                 break;
             }
 
