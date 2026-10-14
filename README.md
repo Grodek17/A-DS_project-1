@@ -36,23 +36,6 @@ make
 ./stack_processor
 ```
 
-## Example
-
-**Input:**
-
-```text
-'123'-456&
-```
-
-**Output:**
-
-```text
-1: 321
-0: 654-
-```
-
-The emulator stores numbers with their least significant digit first. For example, `-1234` is internally represented as `4321-`.
-
 ## Project Background
 
 Developed as the first project for the Algorithms and Data Structures course, focusing on recursion, pointer manipulation, dynamic memory allocation, and custom data structures.
